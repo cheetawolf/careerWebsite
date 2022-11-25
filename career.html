@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/career.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Javascripts   Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <title>My Career Prospect</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <header>
+                <nav class="navbar navbar-expand-sm">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <div class="col-md navbar-dark display-4"><a class="nav-link" href="index.html">Home</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="col-md navbar-dark display-4"><a class="nav-link" href="career.html">Career</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="col text-dark display-4"><a class="nav-link" href="education.html">Education</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="col text-dark display-4"><a class="nav-link" href="feedback.html">Feedback</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="slideshow-container" id="slide">
+            <div class="mySlides fade">
+              <img src="images/ethacking.png" style="width:100%" alt="Ethical Hacking">
+              <div class="text-center position-absolute top-50 start-25 translate-middle-y w-75 reveal"><u>Ethical Hacking</u><br>A first choice for me. As part of my values mentioned in the main page, I take priority in the safety of other people. Cyber crime has destroyed companies whole and it is going to be a problem that will get worse. And also because it is in the IT sector, I can help the world while enjoying what I usually do, that is solving problems.</div>
+            </div>
+            <div class="mySlides fade">
+              <img src="images/softdev.png" style="width:100%" alt="Software Development">
+              <div class="text-center position-absolute top-50 start-25 translate-middle-y reveal"><u>Software Developer</u><br>This option would be great for me as I am most ready to take on this career option. As I have a lot of experience with programming in the many projects that I have completed in the past, I am able to apply the same knowledge in this career and I will be able to succeed well. I also feel that no algorithm is too complicated to be designed and it only can be at most difficult, just not impossible. This is a good secondary career I can have.</div>
+            </div>
+            <div class="mySlides fade" >
+              <img src="images/frontend.png" style="width:100%" alt="Front End Development">
+              <div class="text-center position-absolute top-50 start-25 translate-middle-y reveal"><u>Front End Developer</u><br>This career option is one of my top three choices as I also feel that I can excel in this career option. As someone who frequently surfs the internet, I feel that I know what makes a good website for users to browse. I also think that I am able to apply my problem solving skills when trying to position everything correctly as per requirements.</div>
+            </div>
+          </div>
+        <article>
+            <div class="row" id="article">
+                <h2>My three career options I have in future (click one to view)</h2>
+                <div class="col-md careers dim" onclick="currentSlide(1)">
+                    <h1><u>Ethical <br>Hacker</u></h1>
+                </div>
+
+                <div class="col-md careers dim" onclick="currentSlide(2)">
+                    <h1><u>Software Developer</u></h1>
+                </div>
+                <div class="col-lg careers dim" onclick="currentSlide(3)">
+                    <h1><u>Front End Developer</u></h1>
+                </div>
+            </div>
+
+        </article>
+        <footer>
+            <div class="row" id="footer">
+                <nav class="navbar navbar-expand-sm">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <div class="col-md navbar-dark display-4"><a class="nav-link" href="index.html">Home</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="col-md navbar-dark display-4"><a class="nav-link" href="career.html">Career</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="col text-dark display-4"><a class="nav-link" href="education.html">Education</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="col text-dark display-4"><a class="nav-link" href="feedback.html">Feedback</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+
+                <nav class="navbar navbar-expand-sm">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.instagram.com/snazzagen/"><img
+                                    src="images/instagram.png" alt="instagram"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://twitter.com/snazzagen"><img src="images/twitter.png"
+                                    alt="twitter"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://t.me/snazzawolf"><img src="images/telegram.png"
+                                    alt="telegram"></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+    </div>
+    <script src="scripts/slideshowC.js"></script>
+</body>
