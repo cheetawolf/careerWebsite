@@ -1,3 +1,8 @@
+/*
+    Author: Ritchie Yapp
+    Date: 7 August 2022
+    Diploma in Infocomm Security Management AY22/23
+*/
 var myScrollFunc = function() {
   var reveals = document.getElementsByClassName("sect");
   for (var i = 0; i < reveals.length; i++) {
