@@ -1,0 +1,194 @@
+@font-face {
+    font-family: Gadugi;
+    src: url(gadugi.woff);
+}
+
+header nav {
+    background-color: #8f8f8f;
+}
+
+.nav-link {
+    font-size: 0.6em;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    color: white;
+    width: 100%;
+    text-shadow: 1px 1px #000000;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+article {
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(178,0,255,1) 0%, rgba(0,148,255,1) 100%);
+    row-gap: 2px;
+    min-width: 500px;
+    min-height: 300px;
+    padding-bottom: 3%;
+}
+
+input, label {
+    display:block;
+}
+
+form {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+form > fieldset {
+    flex: 1 1 300px;
+}
+fieldset#left{
+
+    width: 100%;
+    
+}
+fieldset#right{
+    width: 100%;
+}
+
+div#radio{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 7px 0px;
+    font-size: 0.8em;
+    margin-bottom: 6vh;
+}
+
+input, textarea, select{
+    margin-bottom: 6vh;
+    width: 100%;
+    font-size: 1.5em;
+    font-family: Gadugi;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+input[type=button]{
+    width: 6vw;
+}
+
+input[type=checkbox]{
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+}
+
+input[type=range]{
+    height: 2vh;
+}
+
+input[type=radio]{
+    width: 30px;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10%;
+    border: 2px solid black;
+}
+
+#radio > label {
+    margin-right: 2%;
+}
+
+input[type=submit]{
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding: 2%;
+}
+
+select{
+    font-family: Gadugi;
+    margin-bottom: 4vh;
+    height: 5%;
+    width: 20%;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+textarea {
+    height: 60%;
+}
+
+h1 {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-family: Gadugi;
+    text-shadow: 2px 2px black;
+    color: #FFFFFF;
+    font-size: 3em;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+}
+
+h1 > u {
+    border-bottom: 8px;
+}
+
+.form-group{
+    border: 3px solid white;
+    border-radius: 2%;
+    padding: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+legend{
+    font-family: Gadugi;
+    text-shadow: 2px 2px black;
+    color: #FFFFFF;
+    padding: 15px;
+    font-size: 2.5em;
+    margin-bottom: 10%;
+    text-decoration: underline;
+}
+
+label {
+    font-family: Gadugi;
+    color: #FFFFFF;
+    font-size: 1.6em;
+    line-height: 1.1em;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+label.top{
+    margin-top: 3vh;
+}footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #8f8f8f;
+    font-size: 20px;
+}
+
+footer a {
+    font-weight: 400;
+}
+
+footer ul, footer div#footer
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+a > img {
+    padding: 10px;
+    border-radius: 5%;
+    max-width: 75px;
+    max-height: 75px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+a > img:hover {
+    background-color: black;
+}

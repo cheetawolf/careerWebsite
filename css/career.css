@@ -1,0 +1,152 @@
+
+@font-face {
+    font-family: Gadugi;
+    src: url(gadugi.woff);
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 50%;
+      width: 300%;
+      visibility: hidden;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+      visibility: visible;
+    }
+}
+
+header nav {
+    background-color: #8f8f8f;
+}
+
+.nav-link {
+    font-size: 0.6em;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    color: white !important;
+    width: 100%;
+    text-shadow: 1px 1px #000000;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+
+article {
+  background-image: url(../images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  row-gap: 2px;
+  padding: 5%;
+}
+
+article p {
+    padding: 20px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+article div.col-md, article div.col-lg{
+    margin: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: solid black 2px;
+    border-radius: 2%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    font-family: Georgia;
+    font-weight: 400;
+	color: rgba(255,255,255,0.8);
+    text-shadow: 2px 1px 4px black;
+}
+h1 {
+	display: block;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(255,255,255,0.8);
+	text-shadow: 2px 1px 4px black;
+    font-size: 4em;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+	padding: 5%;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #8f8f8f;
+    font-size: 20px;
+}
+
+footer a {
+    font-weight: 400;
+}
+
+footer ul, footer div#footer
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+a > img {
+    padding: 10px;
+    border-radius: 5%;
+    max-width: 75px;
+    max-height: 75px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+a > img:hover {
+    background-color: black;
+}
+
+.mySlides > img{
+    opacity: 0.3;
+}
+.slideshow-container {
+    position: relative;
+    margin: auto;
+  }
+  
+  .mySlides {
+    display: none;
+    background-color: black;
+  }
+  
+.text-center {
+	color: #f2f2f2;
+	font-size: 1.8em;
+	line-height: 1.8em;
+	padding: 8px 12px;
+	text-shadow: 4px 3px 4px rgba(0,0,0,.8);
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+}
+.text-center > u {
+	font-size: 2em;
+	text-shadow: 4px 3px 4px rgba(255,0,0,.2);
+}
+  
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.fade:not(.show) {
+    opacity: 100 !important;
+}
+
+.off:hover{
+    opacity: 0.7 !important;
+}
